@@ -10,12 +10,12 @@
     <div class="app-container">
         <header>
             <h1>OKR Sorting Game</h1>
+            <button id="modeKR">Unscramble Key Results</button>
+            <button id="modeObjective">Unscramble Objectives</button>
         </header>
-        <!-- Assembly area where users will place the words in order -->
-        <section id="assemblyArea" class="okr-assembly-area"></section>
-        <!-- Container holding the scrambled words for the user to sort -->
-        <section id="okrDisplay" class="okr-container"></section>
-        <!-- Button for checking the order of words -->
+        <section id="gameArea" class="game-area">
+            <!-- Dynamic content based on mode will be loaded here -->
+        </section>
         <button id="checkButton" class="check-button">Check Answer</button>
     </div>
     <script src="script.js"></script>

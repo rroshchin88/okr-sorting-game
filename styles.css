@@ -3,7 +3,6 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f4f6;
     color: #333;
-    margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -17,56 +16,23 @@ body {
     max-width: 600px;
 }
 
-header h1 {
-    color: #5d647b;
-}
-
-/* Assembly Area Styling */
-.okr-assembly-area {
+/* Game Area */
+.game-area {
+    border: 2px solid #ccc;
+    padding: 10px;
     margin: 20px 0;
-    min-height: 50px;
-    padding: 10px;
-    border-radius: 8px;
-    background: #e8eaf6;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: start;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
 }
 
-/* OKR Card Container */
-.okr-container {
-    margin: 10px 0;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* OKR Word Card */
-.okr-word {
-    background: #ffffff;
-    border-radius: 4px;
+/* Button Styling */
+button {
     padding: 5px 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: grab;
-    user-select: none; /* Prevent selection to improve drag experience */
-}
-
-/* Check Button */
-.check-button {
-    background-color: #8db9ca;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    margin: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.check-button:hover {
-    background-color: #729fac;
+.check-button {
+    margin-top: 20px;
 }
